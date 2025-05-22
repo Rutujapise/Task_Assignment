@@ -1,0 +1,351 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+
+
+
+/* navbar css  */
+.topNavbar {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+
+.topNavbar .leftMenu {
+    display: flex;
+    margin-left: 30px;
+}
+
+.topNavbar .navLink {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+}
+
+.topNavbar .navLink:hover {
+    text-decoration: none;
+}
+
+.topNavbar .rightMenu {
+    display: flex;
+    margin-right: 30px;
+}
+
+.TnavIcons {
+    color: black;
+    text-decoration: none;
+}
+.topNavbar .TnavIcons i{
+    margin-left: 5px;
+}
+.mainNavbar{ 
+    /* background-color: #c8c8c8; */
+    height: 70px;
+    position: sticky;
+    z-index: 10;
+    top: 0px;
+    background-color: white;
+    border-bottom: 1px solid rgb(215, 210, 210);
+}
+
+.mainNavbar .navList{
+    list-style-type: none;
+    /* border: 1px solid red; */
+    /* width: 80%; */
+    margin: 5px auto;
+}
+
+.mainNavbar .navIcons{
+    display: inline block;
+    margin-left: 30px;
+    color: rgba(0, 0, 0, 0.768);
+}
+
+
+.mainNavbar .navItem{
+    /* border: 1px solid pink; */
+    /* float: left; */
+    display: inline-block;
+    margin: 0px 40px;
+
+}
+
+.mainNavbar .navLink:link{
+    color: red;
+    text-decoration: none;
+    padding: 5px 10px;
+
+}
+.mainNavbar .navLink:hover{
+    /* text-decoration: underline; */
+    border-bottom: 2px solid red;
+
+}
+.mainNavbar .navLink:active{
+
+}
+.mainNavbar .navLink:visited{
+    color: red;
+    text-decoration: none;
+}
+
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+/* header css */
+.headerSection{
+    width:100%;
+    height: 600px;
+    position: relative;
+}
+.headerSection img{
+    width:100%;
+    height: 100%;
+}
+.headerContent {
+    color: white;
+    position: absolute;
+    right: 30%;
+    bottom: 30%;
+    text-align: center;
+}
+.headerContent .delicious{
+    font-size: 30px;
+}
+.headerContent h2{
+    font-size: 450%;
+}
+.headerContent .eggless{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.customActive{
+    color: brown !important;
+}
+
+
+.centerHeading{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.centerHeading2{
+    text-align: left;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    text-align: justify;
+    margin: 20px 20px;
+}
+
+.detailsPara{
+    margin: 50px 180px ;
+    /* padding: 60px 20px 10px 90px; */
+    font-size: x-large;
+    text-align: justify;
+}
+.detailsPara2{
+text-align: justify;
+font-family: 'Times New Roman', Times, serif;
+margin: 20px 20px;
+font-size: large;
+
+}
+.boldText{
+    font-weight: bold;
+}
+.contactDetails{
+    background-image: url('./imges/contact.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding-top: 100px;
+
+}
+.contentDiv{
+    background-color: white;
+    margin-left: 90px;
+    width: 450px;
+    border: 5px solid red;
+    padding: 20px;
+}
+.contactHeading{
+    font-size: xx-large;
+
+}
+.black-btn{
+    background-color: hsl(0, 4%, 5%);
+    /* 00 - ff   00-ff         00-ff; */
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+    border: none;
+    margin: 0px 20px;
+}
+.black-btn:hover{
+    background-color: rgb(78, 78, 78);
+}
+/* .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    margin: 20px;
+
+} */
+ul{
+    list-style-type: disc !important;
+    padding: 20px;
+    color: black;
+
+}
+/* cack category  */
+.categoryMainDiv{
+    width: 100%;
+    display: flex;
+}
+.PavWidth{
+    width: 25%;
+    height: 300px;
+    margin: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.categoryBirthday{
+background-image: url(./imges/birthaday.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.categoryBestSellers{
+    background-image: url(./imges/bestsellars.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.categoryChocolateLovers{
+    background-image: url(./imges/choclet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.categoryCongratulationsCakes{
+    background-image: url(./imges/congratulation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.PavWidth:hover{
+    background-size: 120%;
+
+}
+
+/* featured collection css  */
+.FeaturedMaindiv{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.featureddiv{
+    width: 25%;
+    height: 350px;
+    margin: 5px 10px;
+}
+.featuredImage{
+    width: 100%;
+    height: 70%;
+}
+.textSpacious{
+    letter-spacing: 3px;
+    text-align: center;
+}
+.prise{
+    text-align: center;
+    font-family: cursive;
+
+}
+ /* card css */
+.cardlist{
+    width: 90%;
+    display: flex;
+    height: 400px;
+    margin: 0 auto;
+}
+.card{
+    width: 40%;
+    height: 500px;
+    margin-right: 3%;
+
+}
+.whitebtn{
+    border: 1px solid rgb(185, 185, 185);
+    padding: 7px;
+    background-color: #fff;
+    letter-spacing: 3px;
+    /* margin-left: 30%; */
+}
+.cardbtn{
+    margin-left: 30%;
+}
+.cackimg{
+    height:50% ;
+    width:100% ;
+}
+.CardTitle{
+    text-align: center;
+}
+.Cardinfo{
+    padding-bottom: 10px;
+    /* line-height: 1.2; */
+}
+.footer{
+    display: flex;
+    background-color: rgb(213, 210, 210);
+    border: 1px;
+}
+.footer .footerleft{
+    width: 33%;
+    border: 1px ;
+}
+.footer p{
+    margin: 15px 20px;
+}
+.footerleft p a:link{
+    color: black;
+    text-decoration: none;
+}
+.footerleft p a:visited{
+    color: black;
+}
+.footer .footermiddle{
+    width: 33%;
+    border: 1px  ;
+}
+.footer .footerright{
+    width: 33%;
+    border: 1px  ;
+}
+.footer h5{
+    margin-left: 0px;
+}
+.footer p{
+    margin-left: 0px;
+}
+
+.copyright{
+    text-align: center;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>cake web</title>
+</head>
+<body>
+    <nav class="topNavbar">
+        <div class="leftMenu">
+            <a href="./aboutus.html" class="navLink">About Us</a>
+            <a href="#" class="navLink customActive">Contact Us</a>
+        </div>
+        <div class="rightMenu">
+            <a href="#" class="TnavIcons"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="TnavIcons"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="TnavIcons"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </nav>
+      <hr>
+
+
+        </ul>
+    </nav>
+    
+    <nav class="mainNavbar">
+        <ul class="navList">
+            <a href="#" class="navicons"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <li class="navItem"><a href="./index.html" class="navLink ">Home</a></li>
+            <li class="navItem"><a href="./birthday.html" class="navLink">BIRTHDAY</a></li>
+            <li class="navItem"><a href="./ocastons.html" class="navLink">OCASIONS</a></li>
+            <li class="navItem"><a href="#" class="navLink"><img src="./imges/logo1.png" class="logo"/></a></li>
+            <li class="navItem"><a href="./best_seller.html" class="navLink">Best Seller</a></li>
+            <li class="navItem"><a href="./bakery.html" class="navLink">BAKERY</a></li>
+            <li class="navItem"><a href="./chocolate.html" class="navLink">CHOCOLATE</a></li>
+            <a href="#" class="navicons"> <i class="fa-regular fa-user"></i></a>
+            <a href="#" class="navicons"><i class="fa-solid fa-bag-shopping"></i></a>
+        </ul>
+    </nav>
+    <section>
+        <h2  class="centerHeading">Give Feedback</h2>
+        <p class="detailsPara">We would love to hear from you regarding your experience with our website. 
+            Let us know what works for you and what does not. We are constantly improving and adding content. 
+            Our objective is to entertain, educate and ultimately fulfill your cake needs.
+
+            {{block type="core/template" name="contactForm" form_action="/contacts/index/post" template="contacts/form.phtml"}}</p>
+    </section><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+   <!-- card secttion -->
+   <section>
+    <div class="cardlist">
+        <div class="card">
+            <img src="./imges/birthadaycack.jpg" alt="Birthday Cakes" class="cackimg">
+            <h2 class=" CardTitle">Birthday Cakes</h2>
+            <p class="Cardinfo">PuneBakers offers hassle free same day cakes deliveries for your birthday
+                celebrations.</p>
+            <button class="whitebtn cardbtn">Birthday Cakes</button>
+        </div>
+        <div class="card">
+            <img src="./imges/deloytecchoclet.jpg" alt="Delicious Chocolates" class="cackimg">
+            <h2 class=" CardTitle"> Delicious Chocolates</h2>
+            <p class="Cardinfo">Our finest bakery will prepare fresh baked cakes for your occasion without any
+                delay.</p>
+            <button class="whitebtn cardbtn"> Chocolate cack</button>
+        </div>
+        <div class="card">
+            <img src="./imges/egglesscack.jpg" alt="Eggless Cakes" class="cackimg">
+            <h2 class=" CardTitle">Eggless Cakes</h2>
+            <p class="Cardinfo">We offer best in class eggless cakes to our customers without any extra cost.</p>
+            <button class="whitebtn cardbtn">Eggless Cakes</button>
+        </div>
+    </div>
+</section>
+    <footer>
+        <div class="footer">
+            <div class="footerleft">
+                <p><a href="#">About Us</a></p>
+                <p><a href="#"> Contact Us</a></p>
+                <p><a href="#">Return Policy</a></p>
+                <p><a href="#">Terms Conditions</a></p>
+                <p><a href="#">Privacy Policy</a></p>
+                <p><a href="#">Cakes for Kids</a></p>
+                <p><a href="#">Cake Making Guide</a></p>
+                <p><a href="#"> How to Order Cakes Online?</a></p>
+                <p><a href="#">Mothers Day Celebrations with Cake!</a></p>
+    
+            </div>
+            <div class="footermiddle">
+                <h5>Sign up and save</h5>
+                <p> Subscribe to get special offers, free giveaways,<br> and once-in-a-lifetime deals.</p>
+                    Enter your email<br>
+                    <input type="email"/><br>
+                    <div>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+     <div class="footerright">
+        <h5>Information</h5><br>
+    
+           <h5> Phone:</h5>
+           <p>(+91) 89680 96602</p>
+            
+           <h5> Working Days/Hours:</h5>
+           <p> Mon - Sun / 8:00AM - 9:00PM</p>
+    
+     </div>
+        </div>
+        <div class="copyright">copyright &copy; pune backers for me </div>
+    </footer>
+
+</body>
+</html>
