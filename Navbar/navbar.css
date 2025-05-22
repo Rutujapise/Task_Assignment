@@ -1,0 +1,459 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(196, 194, 191); */
+}
+.bootstrap {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgb(117, 61, 117);
+  color: white;
+  height: 90px;
+}
+nav.bootstrap img.logobootstrap {
+  width: 60px;
+  height: 60px;
+  padding-top: 15px;
+  padding-left: 25px;
+  float: left;
+}
+nav.bootstrap div.leftMenu {
+  display: inline-block;
+}
+div.leftMenu ul.navList {
+  list-style-type: none;
+  margin-left: 30px;
+  margin-top: 27px;
+  font-size: large;
+}
+ul.navList li {
+  display: inline-block;
+  margin: 0 17px;
+  color: white;
+  /* border: 1px solid white; */
+}
+li.navItem a.navLink:link {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+li.navItem a.navLink:hover {
+  /* font-size: large; */
+  color: red !important;
+}
+li.navItem a.navLink:active {
+  color: blue !important;
+}
+li.navItem a.navLink:visited {
+  color: white;
+}
+nav.bootstrap div.rightMenu {
+  display: inline-block;
+  margin-left: 30;
+}
+div.rightMenu span,
+i,
+button {
+  margin: 0 5px;
+}
+nav.btnbootstrap {
+  border-color: rgb(174, 245, 33);
+  color: white;
+  padding: 5px 10px;
+  border-style: solid;
+  border-radius: 3px;
+  background-color: rgb(19, 121, 137);
+}
+.btnbootstrap:hover {
+  background-color: rgb(170, 170, 4);
+  color: rgb(238, 238, 12);
+}
+/* Medium Navbar */
+nav.medium {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgb(245, 244, 244);
+  height: 90px;
+  margin: 20px 5px;
+  border: solid black;
+}
+nav.medium img.logomedium {
+  width: 220px;
+  height: 80px;
+  padding-top: 5px;
+  padding-left: 30px;
+  float: left;
+}
+nav.medium div.rightMenu {
+  display: inline-block;
+  margin-left: 70%;
+  padding-top: 45px;
+}
+div.rightMenu i {
+  margin: 0px 20px;
+}
+/* Gmail Navbar */
+nav.gmail {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgb(237, 237, 237);
+  height: 90px;
+  margin: 20px 5px;
+  display: flex;
+  border: solid black;
+}
+nav.gmail img.logogmail {
+  width: 150px;
+  height: 80px;
+  padding-top: 15px;
+  padding-left: 10px;
+  float: left;
+}
+nav.gmail div.rightMenu {
+  display: inline-block;
+  margin-left: 70%;
+  padding-top: 45px;
+}
+nav.gmail div.leftmenu {
+  text-align: left;
+  padding-top: 35px;
+  padding-left: 10px;
+  font-size: x-large;
+}
+nav.instagram {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: white;
+  height: 90px;
+  margin: 20px 5px;
+  border: solid black;
+}
+nav.instagram img.instalogo {
+  width: 250px;
+  height: 80px;
+  padding-top: 15px;
+  padding-left: 50px;
+  float: left;
+}
+nav.instagram div.rightMenu {
+  display: inline-block;
+  margin-left: 62%;
+  padding-top: 45px;
+}
+/* .inst-search{
+    display: flex;
+    background-color: white;
+    padding: 2px 15px;
+    border: 2px solid black;
+} */
+/* BBC Navbar */
+.bbc-navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 90px;
+  margin: 20px 5px;
+  border: solid black;
+}
+
+.bbc-logo img {
+  width: 150px;
+  height: 60px;
+  /* padding-top: 5px; */
+  padding-left: 20px;
+}
+
+.bbc-signin {
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.bbc-menu {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  font-size: 25px;
+  flex: 1;
+  justify-content: center;
+}
+
+.bbc-search {
+  display: flex;
+  background-color: white;
+  padding: 2px;
+  border: 2px solid black;
+}
+
+.bbc-search input {
+  border: none;
+  padding: 5px;
+  outline: none;
+}
+
+.bbc-search button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+
+/* Linkdine navbar */
+.linkedin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+   height: 90px;
+  margin: 20px 5px;
+  border: solid black;
+  
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.linkedinlogo {
+  width: 30px;
+  height: 30px;
+}
+
+.linkedin-name {
+  color: #1572b9;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.search-boxlin {
+  display: flex;
+  align-items: center;
+  background: #eef3f8;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin-left: 20px;
+  flex: 1;
+  max-width: 300px;
+}
+
+.search-boxlin input {
+  border: none;
+  background: transparent;
+  outline: none;
+  margin-left: 8px;
+  width: 100%;
+}
+
+.rightMenu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto;
+}
+
+.rightMenu i {
+  color: #7a7979;
+  cursor: pointer;
+}
+
+.rightMenu i:hover {
+  color: #0a66c2;
+}
+/* YouTube Navbar */
+nav.youtube {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: white;
+  height: 90px;
+  margin: 20px 5px;
+  display: flex;
+  border: solid black;
+}
+nav.youtube img.youtubelogo {
+  width: 250px;
+  height: 85px;
+  padding-top: 5px;
+  padding-left: 10px;
+  float: left;
+}
+nav.youtube div.rightMenu {
+  display: inline-block;
+  margin-left: 65%;
+  padding-top: 40px;
+}
+nav.youtube div.leftmenu {
+  text-align: left;
+  padding-top: 35px;
+  padding-left: 10px;
+  font-size: x-large;
+}
+
+/* CNN Navbar */
+.cnn-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  color: white;
+  padding: 10px 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  height: 90px;
+  margin: 20px 5px;
+  display: flex;
+  border: solid black;
+  display: flex;
+}
+
+/* CNN Logo */
+.cnn-logo img {
+  height: 30px;
+}
+
+/* CNN Menu */
+.cnn-menu {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.cnn-menu li {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cnn-menu li:hover {
+  text-decoration: underline;
+}
+
+/* CNN Right Icons */
+.cnn-right-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.cnn-right-icons i {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.cnn-right-icons i:hover {
+  color: #ccc;
+}
+
+/* Dropdown for CNN Edition */
+.dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  top: 20px;
+  left: 0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Facebook Navbar */
+nav.fb-navbar {
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: white;
+  height: 90px;
+  margin: 20px 5px;
+  display: flex;
+  border: solid black;
+  display: flex;
+}
+
+/* Left Section (Facebook Logo & Search) */
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.fb-logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.search-box {
+  background-color: #f0f2f5;
+  padding: 8px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.search-box i {
+  font-size: 16px;
+  color: gray;
+}
+
+/* Center Section (Facebook Navigation Icons) */
+.center-section {
+  display: flex;
+  gap: 25px;
+}
+
+.center-section i {
+  font-size: 22px;
+  color: gray;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.center-section i.active {
+  color: blue;
+  border-bottom: 3px solid blue;
+}
+
+/* Right Section (User Icons & Notifications) */
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.right-section i {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.icon-container {
+  position: relative;
+}
+
+.notification {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cnn-menu {
+    display: none;
+  }
+  .center-section {
+    display: none;
+  }
+}
