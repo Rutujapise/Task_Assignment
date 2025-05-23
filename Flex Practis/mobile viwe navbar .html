@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      background-color: #ff3300;
+      padding: 10px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .search-box input[type="text"] {
+      padding: 5px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .search-box button {
+      padding: 5px 10px;
+      margin-left: 5px;
+      border: none;
+      border-radius: 5px;
+      background-color: white;
+      color: #ff3300;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    @media (min-width: 600px) {
+      .navbar-container {
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .search-box {
+        margin-top: 0;
+      }
+    }
+
+    @media (max-width: 599px) {
+      .navbar-container {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .search-box {
+        width: 100%;
+      }
+
+      .search-box input[type="text"] {
+        width: 80%;
+      }
+
+      .search-box button {
+        width: 15%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="navbar-container">
+      <div class="nav-links">
+        <a href="#">Logo</a>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Services</a>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search">
+        <button>Go</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

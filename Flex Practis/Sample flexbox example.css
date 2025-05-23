@@ -1,0 +1,72 @@
+/* Reset some default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Default mobile layout */
+  .article {
+    background-color: cyan;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  .article h2 {
+    color: #0000aa;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Laptop/Desktop view */
+  @media (min-width: 768px) {
+    .content {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .article {
+      flex: 1;
+      margin: 0 10px;
+    }
+  
+    .article:first-child {
+      margin-left: 0;
+    }
+  
+    .article:last-child {
+      margin-right: 0;
+    }
+  }
+  
