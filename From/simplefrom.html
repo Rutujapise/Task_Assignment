@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page </title>
+    <link rel="stylesheet" href="./simpleform.css" >
+</head>
+<body>
+    <div class="rgisterForm">
+        <h1>Register form</h1>
+        <p>Enter your information to register...</p>
+    <form method="get" >
+        <div class="FormDetails">
+
+        <div class="inputGroup">
+        <label for="name">Name:</label>
+        <input type="text" id="name" value="John" name="name" disabled/>
+    </div>
+    <div class="inputGroup">
+        <label for="mobNumber">Mobile Number</label>
+        <input type="text" id="mobNumber" name="mobile_number" placeholder="+91-123-4567-890"/>
+    </div>
+    <div class="inputGroup">
+        <label for="">ADD MObile Number</label>
+        <input type="tel" pattern="+91-[0-9]{3}[0-9]{4}[0-9]{3}">
+    </div>
+    <!-- +91-[0-9]{3}[0-9]{4}[0-9]{3} mobile_number reg-X
+    ^[A-z]{1}[a-zA-Z0-9] -->
+    <div class="inputgroup">
+        <label for="gender">select Gender</label>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+    </div>
+    <div class="inputgroup">
+        <label for="Subject">select subject</label>
+        <input type="checkbox" name="html" value="html">HTML
+        <input type="checkbox" name="css" value="Css">CSS
+    </div>
+    <div class="inputgroup">
+        <label for="">Select Number</label>
+        <input type="number" value="10" max="15">
+
+    </div>
+    <div class="inputgroup">
+        <label for="">Enter pincode</label>
+        <input type="number" value="10" max="15">
+
+    </div>
+    <div class="inputgroup">
+        <label for="">Select file</label>
+        <input type="file" >
+
+    </div>
+    <div>
+        <label for="">select color</label>
+        <input type="color"value="fff">
+    </div>
+    <div class="inputgroup">
+        <label for="">select date</label>
+        <input type="date">
+    </div>
+    <div class="inputGroup">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"/>
+    </div>
+    <div class="inputGroup">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required/>
+    </div>
+
+    <div>
+        <input type="button" value="Register">
+        <input type="submit" >
+        <input type="reset">
+    </div>
+    <textarea name="" id=""></textarea>
+</div>
+
+    </form>
+</div>
+</body>
+</html>
