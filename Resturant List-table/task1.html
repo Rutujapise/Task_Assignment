@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Lists</title>
+  <link rel="stylesheet" href="./task1.css">
+</head>
+<body>
+
+  <!-- Styled Lists Section -->
+  <section class="lists-section">
+    <h1>HTML Lists</h1>
+    <div class="list-container">
+      <div class="list-box fruits">
+        <h2>FRUITS</h2>
+        <ol>
+          <li>Apple</li>
+          <li>Mango</li>
+          <li>Orange</li>
+        </ol>
+      </div>
+      <div class="list-box vegetables">
+        <h2>VEGETABLES</h2>
+        <ul style="list-style-type: square;">
+          <li>Potato</li>
+          <li>Tomato</li>
+          <li>Onion</li>
+        </ul>
+      </div>
+      <div class="list-box groceries">
+        <h2>GROCERIES</h2>
+        <ul style="list-style-type: circle;">
+          <li>Rice</li>
+          <li>Flour</li>
+          <li>Pulses</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nested Links List Section -->
+  <section class="nested-links">
+    <h2>Some of my favorite links</h2>
+    <ul>
+      <li>Social networking
+        <ul>
+          <li><a href="#">digg</a></li>
+          <li><a href="#">reddit</a></li>
+          <li><a href="#">stumbleupon</a></li>
+        </ul>
+      </li>
+      <li>Reference
+        <ul>
+          <li><a href="#">google</a></li>
+          <li><a href="#">wikipedia</a></li>
+          <li><a href="#">dictionary</a></li>
+        </ul>
+      </li>
+      <li>Web development
+        <ul>
+          <li>XHTML/CSS
+            <ul>
+              <li><a href="#">w3 schools</a></li>
+              <li><a href="#">htmlHelp</a></li>
+              <li><a href="#">CSS Zen Garden</a></li>
+            </ul>
+          </li>
+          <li>Programming
+        <ul>
+          <li><a href="#">javascript.com</a></li>
+          <li><a href="#">php.net</a></li>
+          <li><a href="#">mysql.com</a></li>
+        </ul>
+      </li>
+        </ul>
+      </li>
+      
+    </ul>
+  </section>
+  <section>
+    <h2>Device Specifications Table</h2>
+  <table class="device-table">
+    <thead>
+      <tr>
+        <th>Device</th>
+        <th>Brand</th>
+        <th colspan="2">Specifications</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">Smartphone</td>
+        <td rowspan="2">Apple</td>
+        <td colspan="2">
+          <table class="nested-specs">
+            <tr>
+              <th class="model-head">Model</th>
+              <th class="storage-head">Storage</th>
+            </tr>
+            <tr>
+              <td>iPhone 12 Pro</td>
+              <td>256GB</td>
+            </tr>
+            <tr>
+              <td>iPhone SE</td>
+              <td>128GB</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr></tr> <!-- required to fill the rowspan -->
+      <tr>
+        <td>Laptop</td>
+        <td>HP</td>
+        <td colspan="2">15.6" Display</td>
+      </tr>
+      <tr>
+        <td>Tablet</td>
+        <td>Samsung</td>
+        <td colspan="2">10.5" Display</td>
+      </tr>
+    </tbody>
+  </table>
+  </section>
+<section>
+  <div class="pricing-table">
+
+    <!-- Basic Plan -->
+    <div class="pricing-card">
+      <div class="pricing-title">BASIC</div>
+      <div class="pricing-price">$30 <span>/MO</span></div>
+      <ul class="features">
+        <li><b>256MB</b> <span>Memory</span></li>
+        <li><b>1</b> <span>User</span></li>
+        <li><b>1</b> <span>Website</span></li>
+        <li><b>1</b> <span>Domain</span></li>
+        <li><b>Unlimited</b> <span>Bandwidth</span></li>
+        <li><b>24/7</b> <span>Support</span></li>
+      </ul>
+      <button class="select-btn">SELECT</button>
+    </div>
+
+    <!-- Popular Plan -->
+    <div class="pricing-card popular">
+      <div class="pricing-title">POPULAR</div>
+      <div class="pricing-price">$60 <span>/MO</span></div>
+      <ul class="features">
+        <li><b>512MB</b> <span>Memory</span></li>
+        <li><b>3</b> <span>Users</span></li>
+        <li><b>5</b> <span>Websites</span></li>
+        <li><b>7</b> <span>Domains</span></li>
+        <li><b>Unlimited</b> <span>Bandwidth</span></li>
+        <li><b>24/7</b> <span>Support</span></li>
+      </ul>
+      <button class="select-btn">SELECT</button>
+    </div>
+
+    <!-- Premier Plan -->
+    <div class="pricing-card">
+      <div class="pricing-title">PREMIER</div>
+      <div class="pricing-price">$90 <span>/MO</span></div>
+      <ul class="features">
+        <li><b>1024MB</b> <span>Memory</span></li>
+        <li><b>5</b> <span>Users</span></li>
+        <li><b>10</b> <span>Websites</span></li>
+        <li><b>10</b> <span>Domains</span></li>
+        <li><b>Unlimited</b> <span>Bandwidth</span></li>
+        <li><b>24/7</b> <span>Support</span></li>
+      </ul>
+      <button class="select-btn">SELECT</button>
+    </div>
+
+  </div>
+
+</section>
+  <section>
+     <div class="container">
+    <h1>Mini Project: Restaurant Menu & Reservation Table</h1>
+
+    <hr>
+
+    <!-- Restaurant Menu Section -->
+    <section class="card">
+      <h2>🍽️ Restaurant Menu</h2>
+      <ul class="menu">
+        <li><strong>Starters:</strong>
+          <ol>
+            <li>Garlic Bread</li>
+            <li>Bruschetta</li>
+            <li>Stuffed Mushrooms</li>
+          </ol>
+        </li>
+        <li><strong>Indian special vag:</strong>
+          <ol>
+            <li> Kaju Kari</li>
+            <li>Spaghetti Carbonara</li>
+            <li>Paneer Butter Masala</li>
+          </ol>
+        </li>
+        <li><strong>Indian special Non-vag:</strong>
+          <ol>
+            <li>Grilled Chicken</li>
+            <li>Tandoori Chicken</li>
+            <li>Chicken Tikka Masala</li>
+          </ol>
+        </li>
+        <li><strong>Desserts:</strong>
+          <ol>
+            <li>Chocolate Lava Cake</li>
+            <li>Tiramisu</li>
+            <li>Ice Cream Sundae</li>
+          </ol>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Reservation Table Section -->
+    <section class="card">
+      <h2>📋 Reservation Table</h2>
+      <table class="reservation-table">
+        <thead>
+          <tr>
+            <th>Table No.</th>
+            <th>Name</th>
+            <th>Time</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Rutuja Pise</td>
+            <td>7:00 PM</td>
+            <td class="booked">Booked</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Rahul J.</td>
+            <td>7:30 PM</td>
+            <td class="available">Available</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Neha S.</td>
+            <td>8:00 PM</td>
+            <td class="booked">Booked</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Meena k.</td>
+            <td>8:30 PM</td>
+            <td class="available">Available</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+  </section>
+
+</body>
+</html>
