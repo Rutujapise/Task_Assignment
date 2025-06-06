@@ -1,0 +1,130 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #090909;
+    line-height: 1.6;
+    /* overflow-x: hidden; */
+}
+
+/* Header Section */
+.sunitapic {
+    background: url(./download.jpg) no-repeat center center/cover;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.sunitapic h1 {
+    font-size: 3rem;
+    background: #c2bfbf99;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+/* Personal Info Section */
+.sunitapersonal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    /* flex-wrap: nowrap; */
+    /* max-width: 1200px; */
+    margin: auto;
+}
+
+.sunitainfo {
+    max-width: 50%;
+    text-align: justify;
+    padding-right: 20px;
+}
+
+.sunitainfo h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #f4a261;
+}
+
+.sunitainfo p {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+}
+
+.sunitaimg {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.sunitaimg img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px #ffffff33;
+}
+
+/* Achievements Section */
+section {
+    padding: 10px 10px;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #f4a261;
+}
+
+section p {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    text-align: justify;
+}
+.Image_gallary{
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
+.Image_gallary2{
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
+.Image_gal{
+width: 50%px;
+padding: 20px;
+
+
+}
+footer{
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sunitapersonal {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sunitainfo, .sunitaimg {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .sunitaimg img {
+        width: 300px;
+        margin-top: 20px;
+    }
+}
